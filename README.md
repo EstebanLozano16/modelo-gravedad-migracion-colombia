@@ -22,3 +22,28 @@ A continuación, se presenta la relación entre las variables de masa (Població
 Relación logarítmica que demuestra el decaimiento del flujo migratorio a medida que aumenta la distancia desde la frontera.
 
 ![Gráfico de Distancia](graficodistanciamigracion.png)
+
+## Estimaciones del Modelo de Gravedad
+
+```text
+                                      reg_total      reg_dustmann.1      reg_dustmann.2
+                                    Flujo Total Abstracta (Skilled)  Rutinaria (Manual)
+Dependent Var.:                 Total_Migrantes     Total_Migrantes     Total_Migrantes
+                                                                                       
+Log Distancia a Cúcuta     -0.1595*** (0.0040) -0.1787*** (0.0051) -0.1263*** (0.0068)
+Log PIB                       1.419*** (0.0048)   1.402*** (0.0061)   1.451*** (0.0081)
+Constant                     -6.854*** (0.0655)  -6.467*** (0.0832)  -7.483*** (0.1083)
+porcentage_nivel_Superior    0.0161*** (0.0005)  0.0204*** (0.0007)  0.0089*** (0.0009)
+MDM_FactorG1-NivelAlto      -0.8101*** (0.0120) -0.9144*** (0.0150) -0.6167*** (0.0203)
+MDM_FactorG2-NivelMedioAlto  0.2529*** (0.0214)     0.0383 (0.0269)  0.6100*** (0.0355)
+MDM_FactorG3-NivelMedio      0.7310*** (0.0241)  0.1451*** (0.0341)   1.447*** (0.0364)
+MDM_FactorG4-NivelMedioBajo -0.3500*** (0.0423) -0.4460*** (0.0533)   -0.1742* (0.0704)
+MDM_FactorG5-NivelBajo        1.313*** (0.0418)   1.244*** (0.0527)   1.442*** (0.0696)
+___________________________ ___________________ ___________________ ___________________
+S.E. type                                   IID                 IID                 IID
+Observations                              1,038                 554                 484
+Squared Cor.                            0.77364             0.86898             0.84682
+Pseudo R2                               0.82451             0.85317             0.81074
+BIC                                   103,939.0            57,663.6            36,914.0
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
