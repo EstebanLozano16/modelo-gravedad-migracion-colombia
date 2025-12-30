@@ -42,3 +42,15 @@ Pseudo R2                               0.82451             0.85317             
 BIC                                   103,939.0            57,663.6            36,914.0
 ---
 Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+```
+
+## Datos del Proyecto
+
+Para facilitar la replicabilidad de este modelo, se incluye el archivo `base_migracion_colombia_procesada.csv`. Junto a los datos para la construcción del PCA para el PIB.
+**Diccionario de datos:**
+- `CODIGO_DANE_MPIO_HOSPEDAJE`: Código único del municipio (DANE).
+- `Tipo_Tarea`: Clasificación laboral (Abstracta/Rutinaria) según Dustmann (2025).
+- `Total_Migrantes`: Flujo de entradas venezolanas en 2024.
+- `Distancia_Frontera_Km`: Distancia geodésica al Puente Simón Bolívar (Cúcuta).
+- `PIB_Municipal_Estimado`: Valor agregado estimado mediante PCA.
+- `MDM_Texto`: Categoría de desempeño municipal (DNP).
