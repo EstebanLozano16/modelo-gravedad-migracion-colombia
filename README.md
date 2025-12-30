@@ -13,11 +13,6 @@ Este repositorio contiene el desarrollo de un **Modelo de Gravedad** aplicado al
 - Los trabajadores con perfiles **Abstractos** muestran una mayor sensibilidad a la calidad del capital humano local (educación superior).
 - El modelo alcanzó un **Pseudo R² de 0.82**, demostrando un alto poder predictivo de las variables seleccionadas.
 
-##  Visualización de Datos
-### Matriz de Correlación
-A continuación, se presenta la relación entre las variables de masa (Población, PIB) y la fricción (Distancia).
-
-![Matriz de Correlación](matriz%20de%20correlacion.png)
 ### Efecto de la Distancia
 Relación logarítmica que demuestra el decaimiento del flujo migratorio a medida que aumenta la distancia desde la frontera.
 
